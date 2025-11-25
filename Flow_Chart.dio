@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="5Pf4ud7P6tY1ce1_LvhV" name="第 1 页">
-        <mxGraphModel dx="584" dy="298" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+        <mxGraphModel dx="549" dy="280" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -61,22 +61,37 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="76" value="处理媒体来源&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;def media_clean&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=39;" parent="1" vertex="1">
-                    <mxGeometry x="711" y="205.75" width="273" height="253.25" as="geometry"/>
+                    <mxGeometry x="691" y="153.88" width="273" height="286.25" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="输入&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" parent="76" vertex="1">
-                    <mxGeometry x="34" y="54.25" width="60" height="60" as="geometry"/>
+                <mxCell id="107" value="" style="group" vertex="1" connectable="0" parent="76">
+                    <mxGeometry x="34" y="54.25" width="213" height="184" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" value="" style="edgeStyle=none;html=1;" edge="1" parent="76" source="83" target="101">
+                <mxCell id="78" value="输入&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" parent="107" vertex="1">
+                    <mxGeometry width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="edgeStyle=none;html=1;" edge="1" parent="107" source="83" target="101">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" value="时间分布可视化" style="shape=delay;whiteSpace=wrap;html=1;" parent="76" vertex="1">
-                    <mxGeometry x="130" y="64.25" width="117" height="40" as="geometry"/>
+                <mxCell id="83" value="提取媒体列表" style="shape=delay;whiteSpace=wrap;html=1;" parent="107" vertex="1">
+                    <mxGeometry x="96" y="10" width="117" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" value="" style="edgeStyle=none;html=1;" edge="1" parent="76" source="78" target="83">
+                <mxCell id="99" value="" style="edgeStyle=none;html=1;" edge="1" parent="107" source="78" target="83">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" value="时间分布可视化" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="76">
-                    <mxGeometry x="130" y="126.25" width="117" height="40" as="geometry"/>
+                <mxCell id="104" value="" style="edgeStyle=none;html=1;" edge="1" parent="107" source="101" target="103">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="配置媒体合并" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="107">
+                    <mxGeometry x="96" y="72" width="117" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="" style="edgeStyle=none;html=1;" edge="1" parent="107" source="103" target="105">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="媒体分布可视化" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="107">
+                    <mxGeometry x="96" y="134" width="117" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="输入&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="107">
+                    <mxGeometry x="2" y="124" width="60" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
